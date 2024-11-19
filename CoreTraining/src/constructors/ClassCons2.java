@@ -1,4 +1,4 @@
-package com.practice;
+package constructors;
 
 public class ClassCons2 {
 	public ClassCons2() {

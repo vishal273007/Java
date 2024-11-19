@@ -1,4 +1,4 @@
-package com.practice;
+package operators;
 
 public class Operators4 {
 	
