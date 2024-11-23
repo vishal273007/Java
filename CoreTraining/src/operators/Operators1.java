@@ -1,25 +1,55 @@
+//OPERATORS IN JAVA
 package operators;
 
-public class Operators1 {
-	
-	void meth1() {
-		int a=1;
-		int b=2;
-		int c;
-		int d;
-		c=++b; //c=3 b=3 [first b value increased due to PreIncrement then it's value assigned to variable c]
-		d=a++; //d=1 a=2 [first a value is assigned to d then a value increased by 1]
-		c++; //c=4
-		
-		System.out.println("a = "+a); //2
-		System.out.println("b = "+b); //3
-		System.out.println("c = "+c); //4
-		System.out.println("d = "+d); //1
-	}
-	
-	public static void main(String[] args) {
-		Operators1 aobj=new Operators1();
-		aobj.meth1();
-	}
 
+public class Operators1{
+    void meth1(){
+        System.out.println("meth1() called");
+        int i=100;
+        System.out.println(i); //100 x=100
+        System.out.println(i++); //100 x=101
+        System.out.println(i); //101 x=101
+        System.out.println(++i); //102 x=102
+        System.out.println(i); //102 x=102
+        System.out.println(i--); //102 x=101
+        System.out.println(i); //101 x=101
+        System.out.println(--i); //100 x=100
+        System.out.println(i); //100 x=100
+    }
+
+    void meth2(){
+        System.out.println("meth2() called");
+        
+        int x=10;
+        System.out.println(x++); //10 x=11
+        System.out.println(x++); //11 x=12
+        System.out.println(x++); //12 x=13
+
+        x++; //x=14
+
+        System.out.println(--x); //13 x=13
+        System.out.println(x++); //13 x=14
+        System.out.println(++x); //15 x=15
+
+        --x; // x=14
+
+        System.out.println(x--); //14 x=13
+
+        ++x; //x=14
+
+        System.out.println(x); //14 x=14
+        System.out.println(x++); //14 x=15
+
+        x++; //x=16
+
+        System.out.println(x--); //16 x=15
+        System.out.println(x); //15 x=15
+    }
+
+    public static void main(String[] args) {
+        Operators1 aobj=new Operators1();
+        aobj.meth1();
+        System.out.println("-----------------------------");
+        aobj.meth2();
+    }
 }
