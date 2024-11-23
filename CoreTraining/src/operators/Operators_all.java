@@ -1,9 +1,7 @@
-package com.practice;
+package operators;
 
-
-// This is a program combined of multiple Operators in one program.
-
-public class ClassA {
+public class Operators_all {
+	
 	
 	void meth1() {
 		int a=10, b=5;
@@ -88,7 +86,7 @@ public class ClassA {
 
 		
 		public static void main(String[] main) {
-			ClassA aobj=new ClassA();
+			Operators_all aobj=new Operators_all();
 			aobj.meth1();
 			System.out.println("--------------------------");
 			aobj.meth2();
