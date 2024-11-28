@@ -1,8 +1,8 @@
 // This program is control statement. it is selection control statement where if, if-else, if-else, and switch will be used in upcomming programs.
 
-package com.example.controlstatements;
+package controlstatements;
 
-public class IfElseExample {
+public class IfElseExample2 {
 	void meth1(int i) {
 		System.out.println("meth1() called.");
 		if (!(i < 'A')) { // 97<65? --> !(false) --> true
@@ -66,7 +66,7 @@ public class IfElseExample {
 	}
 
 	public static void main(String[] args) {
-		IfElseExample aobj = new IfElseExample(); // creating an object
+		IfElseExample2 aobj = new IfElseExample2(); // creating an object
 		aobj.meth1('a'); // calling a method and passing a parameter to that method.
 		aobj.meth2(50);
 		aobj.meth3(1, 9);
