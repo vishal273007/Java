@@ -19,7 +19,7 @@
 
 //Format code automatically --> Unformatted copied code from notepad can be formatted automatically in eclipse by right clicking on editor "Source > Format [Ctrl+Shift+F]".
 
-package com.a_starting;
+package com.a;
 
 public class FollowThisFirst {
 	

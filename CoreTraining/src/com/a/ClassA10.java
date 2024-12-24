@@ -1,4 +1,4 @@
-package com.a_starting;
+package com.a;
 
 public class ClassA10 {
 	

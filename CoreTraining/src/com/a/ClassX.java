@@ -1,5 +1,5 @@
 
-package com.a_starting;
+package com.a;
 
 import com.packages.ClassA; //1st method to import a package
 //import com.packages.ClassB;
