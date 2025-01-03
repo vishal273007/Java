@@ -3,8 +3,7 @@
 // Package declaration must be at the top
 package inheritance_classx;
 
-// Import statements must come after the package declaration
-import com.oopsconcept.inheritance.ClassB;
+import com.oopsconcept._01_inheritance.ClassB;
 
 // ClassX extends ClassB, inheriting methods from ClassA (through ClassB) and adding its own method
 public class ClassX extends ClassB {
